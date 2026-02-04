@@ -71,8 +71,9 @@ else:
 
     # Logique des pages
     if selection == "Accueil":
-        st.header("🏠 Bienvenue sur ma page d'accueil !")
+        st.header("Bienvenue sur ma page d'accueil !")
         st.write("Ceci est un espace sécurisé géré par un dictionnaire Python.")
+        st.image("https://s2.qwant.com/thumbr/474x315/e/7/66d15e9bc1d680790ae2cbe406b5e65d39c4aa2cfdb634bcd453e9bca9649e/OIP.-yDi2WsnPnI4JRXj2equmAHaE7.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.-yDi2WsnPnI4JRXj2equmAHaE7%3Fpid%3DApi&q=0&b=1&p=0&a=0")
 
     elif selection == "Photos":
         st.header("🐱 Album photo de Bowie")
