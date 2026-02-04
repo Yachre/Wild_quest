@@ -37,9 +37,11 @@ with st.sidebar:
     
 
     if st.session_state["authentication_status"]:
-        accueil()
+        accueil("authentication_status")
+    else:
+        st.warning("Vous n'êtes pas connecté.")
     # Le bouton de déconnexion
-    authenticator.logout("Déconnexion")
+        authenticator.logout("Déconnexion")
     # On indique au programme quoi faire en fonction du choix
 
 if selection == "Accueil":
